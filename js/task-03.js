@@ -16,8 +16,7 @@ const images = [
 
 const galleryItemsEl = images
   .map((elem) => {
-    return 
-    `<li>
+    return `<li>
     <img src=${elem.url} alt=${elem.alt}></img>
     </li>`;
   })
