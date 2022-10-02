@@ -16,7 +16,10 @@ const images = [
 
 const galleryItemsEl = images
   .map((elem) => {
-    return `<li><img src=${elem.url} alt=${elem.alt}></img></li>`;
+    return 
+    `<li>
+    <img src=${elem.url} alt=${elem.alt}></img>
+    </li>`;
   })
   .join("");
 
